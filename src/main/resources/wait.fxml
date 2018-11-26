@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="475.0" scaleShape="false" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.phong.selenium.WaitController">
+   <children>
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="87.0" layoutY="134.0" prefHeight="41.0" prefWidth="302.0" text="Đang tiến hành...">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="cancelButton" layoutX="195.0" layoutY="222.0" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #405aa8;" text="Hủy" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="retryButton" disable="true" layoutX="195.0" layoutY="222.0" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #405aa8;" text="Thử lại" textFill="WHITE" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
